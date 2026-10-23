@@ -138,15 +138,16 @@ export default function LandingPage({
             <NusaMipaLogo height={32} showSubtitle={false} />
             <span style={{
               fontSize: '10px',
-              fontWeight: 700,
-              background: '#DCFCE7',
-              color: '#15803D',
-              border: '1px solid #BBF7D0',
-              padding: '3px 9px',
-              borderRadius: '9999px',
-              letterSpacing: '0.04em'
+              fontWeight: 800,
+              background: '#F1F5F9',
+              color: '#334155',
+              border: '1px solid #E2E8F0',
+              padding: '3px 8px',
+              borderRadius: '6px',
+              letterSpacing: '0.04em',
+              textTransform: 'uppercase'
             }}>
-              UNESA • DIMAS-TI 2026
+              GEO-AI PLATFORM
             </span>
           </div>
 
@@ -259,60 +260,48 @@ export default function LandingPage({
         position: 'relative'
       }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '1040px', margin: '0 auto' }}>
-          {/* Badge */}
+          {/* Refined Category Tag - Clean, Elegant & Un-squashed */}
           <div style={{
             display: 'inline-flex',
             alignItems: 'center',
-            gap: '8px',
+            gap: '10px',
             background: '#FFFFFF',
             border: '1px solid #E2D9C8',
             borderRadius: '9999px',
-            padding: '4px 14px',
-            fontSize: '11.5px',
-            fontWeight: 700,
-            color: '#15803D',
-            marginBottom: '24px',
-            boxShadow: '0 2px 6px rgba(0,0,0,0.03)'
+            padding: '6px 18px',
+            marginBottom: '26px',
+            boxShadow: '0 2px 10px rgba(0,0,0,0.03)'
           }}>
-            <span style={{ width: '7px', height: '7px', borderRadius: '50%', background: '#22C55E' }}></span>
-            <span>DATA MINING DIMAS-TI 2026 · FMIPA UNIVERSITAS NEGERI SURABAYA</span>
+            <span style={{ display: 'inline-flex', gap: '6px', alignItems: 'center' }}>
+              <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#2563EB' }} title="Klaster 1 Benchmark" />
+              <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#D97706' }} title="Klaster 2 Paradoks" />
+              <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#EA580C' }} title="Klaster 3 Afirmasi 3T" />
+            </span>
+            <span style={{
+              fontSize: '12px',
+              fontWeight: 700,
+              color: '#3F3F46',
+              letterSpacing: '0.04em',
+              textTransform: 'uppercase'
+            }}>
+              Pemetaan 3 Klaster IPO &bull; 514 Kabupaten / Kota
+            </span>
           </div>
 
-          {/* Giant Display Heading */}
+          {/* Authoritative Display Heading */}
           <h1 style={{
             fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(36px, 6vw, 68px)',
+            fontSize: 'clamp(36px, 5.2vw, 62px)',
             fontWeight: 800,
             color: '#141413',
-            lineHeight: 1.1,
-            letterSpacing: '-0.03em',
-            marginBottom: '24px'
+            lineHeight: 1.18,
+            letterSpacing: '-0.02em',
+            marginBottom: '22px',
+            maxWidth: '920px',
+            marginLeft: 'auto',
+            marginRight: 'auto'
           }}>
-            Data{' '}
-            <span style={{
-              display: 'inline-flex',
-              alignItems: 'center',
-              gap: '8px',
-              padding: '6px 16px',
-              borderRadius: '9999px',
-              background: '#FFFFFF',
-              border: '2px solid #E4DFD5',
-              boxShadow: '0 4px 14px rgba(0,0,0,0.06)',
-              verticalAlign: 'middle',
-              margin: '0 8px',
-              fontSize: 'clamp(14px, 2vw, 22px)',
-              fontWeight: 700,
-              color: '#141413',
-              whiteSpace: 'nowrap'
-            }}>
-              <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#2563EB' }} title="Klaster 1 Benchmark" />
-              <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#D97706' }} title="Klaster 2 Paradoks" />
-              <span style={{ width: '10px', height: '10px', borderRadius: '50%', background: '#EA580C' }} title="Klaster 3 Afirmasi 3T" />
-              <span style={{ fontSize: '13px', color: '#52525B', marginLeft: '4px', whiteSpace: 'nowrap' }}>3 Klaster · 514 Daerah</span>
-            </span>{' '}
-            MIPA.
-            <br />
-            Menuju Education 5.0.
+            Preskripsi Cerdas Kebijakan Numerasi Menuju <span style={{ color: '#16A34A', display: 'inline-block' }}>Education 5.0</span>
           </h1>
 
           {/* Subtitle */}
