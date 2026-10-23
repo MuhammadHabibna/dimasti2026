@@ -1,0 +1,193 @@
+jenjang,scaler,algorithm,k_clusters,silhouette_score,davies_bouldin_index,calinski_harabasz_index,min_cluster_share_pct,valid_policy_strata
+SD,StandardScaler,K-Means,2,0.6006,1.1475,241.8,9.34,True
+SD,StandardScaler,Agglomerative (Ward),2,0.5799,1.2161,231.9,10.7,True
+SD,StandardScaler,Gaussian Mixture (GMM),2,0.5521,1.3088,217.99,12.65,True
+SD,StandardScaler,Spectral Clustering,2,0.2787,1.9049,108.25,31.52,True
+SD,StandardScaler,K-Means,3,0.2339,1.4692,185.91,5.84,True
+SD,StandardScaler,Agglomerative (Ward),3,0.4995,1.3297,175.98,4.09,False
+SD,StandardScaler,Gaussian Mixture (GMM),3,0.2837,1.7093,131.84,6.61,True
+SD,StandardScaler,Spectral Clustering,3,0.0321,1.8347,62.69,8.17,True
+SD,StandardScaler,K-Means,4,0.2398,1.4706,178.76,3.5,False
+SD,StandardScaler,Agglomerative (Ward),4,0.176,1.5997,159.26,4.09,False
+SD,StandardScaler,Gaussian Mixture (GMM),4,0.2133,1.6061,152.26,4.09,False
+SD,StandardScaler,Spectral Clustering,4,0.0727,1.6409,54.24,6.61,True
+SD,StandardScaler,K-Means,5,0.2284,1.393,154.25,3.5,False
+SD,StandardScaler,Agglomerative (Ward),5,0.1649,1.462,134.6,4.09,False
+SD,StandardScaler,Gaussian Mixture (GMM),5,0.2003,1.9509,131.95,4.09,False
+SD,StandardScaler,Spectral Clustering,5,0.1319,1.5998,98.24,6.61,True
+SD,RobustScaler,K-Means,2,0.7945,0.7172,661.41,9.53,True
+SD,RobustScaler,Agglomerative (Ward),2,0.7916,0.7096,624.98,9.34,True
+SD,RobustScaler,Gaussian Mixture (GMM),2,0.7726,0.8558,553.54,12.45,True
+SD,RobustScaler,Spectral Clustering,2,-0.3326,2.0298,6.04,7.98,True
+SD,RobustScaler,K-Means,3,0.762,1.1442,492.75,3.31,False
+SD,RobustScaler,Agglomerative (Ward),3,0.7556,1.0801,435.02,4.67,False
+SD,RobustScaler,Gaussian Mixture (GMM),3,0.7064,1.3214,388.99,7.98,True
+SD,RobustScaler,Spectral Clustering,3,0.1393,1.3637,257.91,7.98,True
+SD,RobustScaler,K-Means,4,0.7342,1.1018,436.96,3.11,False
+SD,RobustScaler,Agglomerative (Ward),4,0.7159,1.2669,393.66,4.67,False
+SD,RobustScaler,Gaussian Mixture (GMM),4,0.6994,1.3893,352.35,4.09,False
+SD,RobustScaler,Spectral Clustering,4,0.2468,1.1557,184.45,7.2,True
+SD,RobustScaler,K-Means,5,0.7231,1.2245,377.82,1.36,False
+SD,RobustScaler,Agglomerative (Ward),5,0.7149,1.4524,341.38,1.95,False
+SD,RobustScaler,Gaussian Mixture (GMM),5,0.3836,1.3263,298.17,3.7,False
+SD,RobustScaler,Spectral Clustering,5,0.2711,1.1933,238.03,5.64,True
+SD,MinMaxScaler,K-Means,2,0.4261,1.2051,289.73,32.1,True
+SD,MinMaxScaler,Agglomerative (Ward),2,0.4269,1.2134,288.13,31.91,True
+SD,MinMaxScaler,Gaussian Mixture (GMM),2,0.4683,1.2872,233.1,16.93,True
+SD,MinMaxScaler,Spectral Clustering,2,0.2815,1.2373,196.54,43.58,True
+SD,MinMaxScaler,K-Means,3,0.3882,1.0548,324.83,9.34,True
+SD,MinMaxScaler,Agglomerative (Ward),3,0.4036,1.0675,299.0,10.31,True
+SD,MinMaxScaler,Gaussian Mixture (GMM),3,0.3688,1.1651,288.41,11.28,True
+SD,MinMaxScaler,Spectral Clustering,3,0.1429,1.2039,106.49,8.37,True
+SD,MinMaxScaler,K-Means,4,0.3757,1.3306,260.86,6.61,True
+SD,MinMaxScaler,Agglomerative (Ward),4,0.2949,1.4121,246.57,10.31,True
+SD,MinMaxScaler,Gaussian Mixture (GMM),4,0.2433,1.8602,129.01,6.03,True
+SD,MinMaxScaler,Spectral Clustering,4,0.1805,1.4865,115.84,8.37,True
+SD,MinMaxScaler,K-Means,5,0.3798,1.2431,235.08,2.92,False
+SD,MinMaxScaler,Agglomerative (Ward),5,0.2993,1.6221,216.77,3.89,False
+SD,MinMaxScaler,Gaussian Mixture (GMM),5,0.3182,1.6002,200.95,4.09,False
+SD,MinMaxScaler,Spectral Clustering,5,0.178,1.3233,103.35,7.98,True
+SMP,StandardScaler,K-Means,2,0.7054,1.0595,178.41,3.7,False
+SMP,StandardScaler,Agglomerative (Ward),2,0.7054,1.0595,178.41,3.7,False
+SMP,StandardScaler,Gaussian Mixture (GMM),2,0.6016,1.5702,139.43,8.37,True
+SMP,StandardScaler,Spectral Clustering,2,0.205,2.2343,66.37,40.08,True
+SMP,StandardScaler,K-Means,3,0.2364,1.3911,155.91,3.7,False
+SMP,StandardScaler,Agglomerative (Ward),3,0.2237,1.4337,151.14,3.7,False
+SMP,StandardScaler,Gaussian Mixture (GMM),3,0.3059,1.9307,99.48,5.25,True
+SMP,StandardScaler,Spectral Clustering,3,0.13,2.0524,58.36,27.04,True
+SMP,StandardScaler,K-Means,4,0.2476,1.5136,136.59,3.11,False
+SMP,StandardScaler,Agglomerative (Ward),4,0.2336,1.6403,126.23,3.7,False
+SMP,StandardScaler,Gaussian Mixture (GMM),4,0.1364,2.5666,70.75,3.31,False
+SMP,StandardScaler,Spectral Clustering,4,0.1904,1.648,79.71,13.62,True
+SMP,StandardScaler,K-Means,5,0.2522,1.483,123.51,0.78,False
+SMP,StandardScaler,Agglomerative (Ward),5,0.2363,1.4889,114.43,0.39,False
+SMP,StandardScaler,Gaussian Mixture (GMM),5,0.1401,2.204,70.57,1.95,False
+SMP,StandardScaler,Spectral Clustering,5,0.0838,1.5914,63.78,8.37,True
+SMP,RobustScaler,K-Means,2,0.7901,0.8018,487.63,7.98,True
+SMP,RobustScaler,Agglomerative (Ward),2,0.8147,0.5008,337.13,2.92,False
+SMP,RobustScaler,Gaussian Mixture (GMM),2,0.7599,1.0197,326.93,8.37,True
+SMP,RobustScaler,Spectral Clustering,2,0.7185,1.1236,312.78,17.7,True
+SMP,RobustScaler,K-Means,3,0.7552,0.9654,415.42,4.09,False
+SMP,RobustScaler,Agglomerative (Ward),3,0.7203,1.1454,355.69,2.92,False
+SMP,RobustScaler,Gaussian Mixture (GMM),3,0.6945,1.7745,212.74,5.06,True
+SMP,RobustScaler,Spectral Clustering,3,0.7178,1.124,259.16,4.86,False
+SMP,RobustScaler,K-Means,4,0.7515,0.8641,416.09,3.31,False
+SMP,RobustScaler,Agglomerative (Ward),4,0.7526,1.0298,382.66,2.92,False
+SMP,RobustScaler,Gaussian Mixture (GMM),4,0.7097,1.5183,197.64,5.06,True
+SMP,RobustScaler,Spectral Clustering,4,0.0926,1.6671,174.15,4.86,False
+SMP,RobustScaler,K-Means,5,0.7592,0.9446,390.1,3.31,False
+SMP,RobustScaler,Agglomerative (Ward),5,0.7444,1.0878,357.67,2.92,False
+SMP,RobustScaler,Gaussian Mixture (GMM),5,0.7093,2.5164,163.78,3.11,False
+SMP,RobustScaler,Spectral Clustering,5,0.1223,1.4003,302.7,3.5,False
+SMP,MinMaxScaler,K-Means,2,0.6397,0.922,253.86,6.03,True
+SMP,MinMaxScaler,Agglomerative (Ward),2,0.6477,0.8491,237.49,5.06,True
+SMP,MinMaxScaler,Gaussian Mixture (GMM),2,0.4548,1.567,168.78,17.7,True
+SMP,MinMaxScaler,Spectral Clustering,2,0.3207,1.6063,144.8,36.77,True
+SMP,MinMaxScaler,K-Means,3,0.3312,1.2939,226.24,6.03,True
+SMP,MinMaxScaler,Agglomerative (Ward),3,0.3215,1.367,214.31,5.06,True
+SMP,MinMaxScaler,Gaussian Mixture (GMM),3,0.2616,2.0119,126.09,7.2,True
+SMP,MinMaxScaler,Spectral Clustering,3,0.2198,1.4611,110.57,28.6,True
+SMP,MinMaxScaler,K-Means,4,0.3125,1.181,212.06,6.03,True
+SMP,MinMaxScaler,Agglomerative (Ward),4,0.2654,1.2846,187.63,5.06,True
+SMP,MinMaxScaler,Gaussian Mixture (GMM),4,0.1344,1.9185,98.47,7.78,True
+SMP,MinMaxScaler,Spectral Clustering,4,0.3036,1.2299,152.43,12.84,True
+SMP,MinMaxScaler,K-Means,5,0.3295,1.2323,199.5,3.11,False
+SMP,MinMaxScaler,Agglomerative (Ward),5,0.2979,1.2227,176.71,4.67,False
+SMP,MinMaxScaler,Gaussian Mixture (GMM),5,0.2144,1.6713,132.67,4.09,False
+SMP,MinMaxScaler,Spectral Clustering,5,0.2011,1.3286,120.98,9.73,True
+SMA,StandardScaler,K-Means,2,0.7518,1.1073,159.8,2.53,False
+SMA,StandardScaler,Agglomerative (Ward),2,0.7651,1.0708,153.34,2.14,False
+SMA,StandardScaler,Gaussian Mixture (GMM),2,0.5117,2.1507,79.24,11.48,True
+SMA,StandardScaler,Spectral Clustering,2,0.0261,1.7073,43.72,24.32,True
+SMA,StandardScaler,K-Means,3,0.2276,1.6416,131.11,2.53,False
+SMA,StandardScaler,Agglomerative (Ward),3,0.4663,1.7406,118.72,2.14,False
+SMA,StandardScaler,Gaussian Mixture (GMM),3,0.3172,2.264,97.53,3.5,False
+SMA,StandardScaler,Spectral Clustering,3,0.0585,2.0562,52.83,22.96,True
+SMA,StandardScaler,K-Means,4,0.2134,1.7057,113.09,1.75,False
+SMA,StandardScaler,Agglomerative (Ward),4,0.469,1.6186,103.33,0.97,False
+SMA,StandardScaler,Gaussian Mixture (GMM),4,0.2961,2.2538,87.18,1.36,False
+SMA,StandardScaler,Spectral Clustering,4,0.0544,2.0471,46.06,23.15,True
+SMA,StandardScaler,K-Means,5,0.2184,1.5472,106.74,0.58,False
+SMA,StandardScaler,Agglomerative (Ward),5,0.1374,1.6911,99.21,0.97,False
+SMA,StandardScaler,Gaussian Mixture (GMM),5,0.1924,2.1899,62.43,2.92,False
+SMA,StandardScaler,Spectral Clustering,5,0.1188,1.7199,59.73,9.92,True
+SMA,RobustScaler,K-Means,2,0.7467,0.9525,348.09,7.39,True
+SMA,RobustScaler,Agglomerative (Ward),2,0.7946,0.7345,257.28,2.72,False
+SMA,RobustScaler,Gaussian Mixture (GMM),2,0.6411,1.1193,247.26,26.26,True
+SMA,RobustScaler,Spectral Clustering,2,0.6583,1.0665,273.16,23.93,True
+SMA,RobustScaler,K-Means,3,0.6936,0.9104,389.61,3.7,False
+SMA,RobustScaler,Agglomerative (Ward),3,0.6632,1.0147,309.12,2.72,False
+SMA,RobustScaler,Gaussian Mixture (GMM),3,0.6861,1.3804,248.78,6.81,True
+SMA,RobustScaler,Spectral Clustering,3,0.0467,1.892,138.32,23.93,True
+SMA,RobustScaler,K-Means,4,0.7016,1.1968,341.44,2.14,False
+SMA,RobustScaler,Agglomerative (Ward),4,0.6962,1.0885,283.99,2.72,False
+SMA,RobustScaler,Gaussian Mixture (GMM),4,0.6773,1.3604,239.48,3.89,False
+SMA,RobustScaler,Spectral Clustering,4,0.1297,1.7177,203.17,9.53,True
+SMA,RobustScaler,K-Means,5,0.7068,1.119,309.56,1.56,False
+SMA,RobustScaler,Agglomerative (Ward),5,0.7132,1.09,274.01,2.72,False
+SMA,RobustScaler,Gaussian Mixture (GMM),5,0.6862,2.4767,148.8,1.56,False
+SMA,RobustScaler,Spectral Clustering,5,0.1758,1.4733,173.28,2.92,False
+SMA,MinMaxScaler,K-Means,2,0.6286,1.1455,201.9,6.42,True
+SMA,MinMaxScaler,Agglomerative (Ward),2,0.6675,1.0496,192.64,4.47,False
+SMA,MinMaxScaler,Gaussian Mixture (GMM),2,0.3689,1.6898,135.3,28.02,True
+SMA,MinMaxScaler,Spectral Clustering,2,0.3983,1.561,150.32,24.12,True
+SMA,MinMaxScaler,K-Means,3,0.353,1.3177,174.44,4.67,False
+SMA,MinMaxScaler,Agglomerative (Ward),3,0.3403,1.4132,161.88,4.47,False
+SMA,MinMaxScaler,Gaussian Mixture (GMM),3,0.3317,1.6566,136.78,5.06,True
+SMA,MinMaxScaler,Spectral Clustering,3,0.186,1.4901,110.53,23.93,True
+SMA,MinMaxScaler,K-Means,4,0.2474,1.3486,161.18,4.67,False
+SMA,MinMaxScaler,Agglomerative (Ward),4,0.2131,1.3905,143.79,4.47,False
+SMA,MinMaxScaler,Gaussian Mixture (GMM),4,0.3321,1.802,110.75,5.84,True
+SMA,MinMaxScaler,Spectral Clustering,4,0.128,1.4863,85.83,17.32,True
+SMA,MinMaxScaler,K-Means,5,0.2598,1.4288,148.93,1.75,False
+SMA,MinMaxScaler,Agglomerative (Ward),5,0.2156,1.5581,128.67,1.75,False
+SMA,MinMaxScaler,Gaussian Mixture (GMM),5,0.2609,2.2617,86.66,4.28,False
+SMA,MinMaxScaler,Spectral Clustering,5,0.1891,1.3982,111.21,9.53,True
+SMK,StandardScaler,K-Means,2,0.4287,1.6812,102.92,13.23,True
+SMK,StandardScaler,Agglomerative (Ward),2,0.3891,1.9333,77.88,14.01,True
+SMK,StandardScaler,Gaussian Mixture (GMM),2,0.381,2.195,77.71,18.29,True
+SMK,StandardScaler,Spectral Clustering,2,0.08,2.4935,37.38,25.68,True
+SMK,StandardScaler,K-Means,3,0.1581,1.9819,83.13,11.28,True
+SMK,StandardScaler,Agglomerative (Ward),3,0.3584,1.6329,66.37,1.36,False
+SMK,StandardScaler,Gaussian Mixture (GMM),3,0.2025,2.299,66.68,5.25,True
+SMK,StandardScaler,Spectral Clustering,3,0.0926,2.1334,49.57,25.1,True
+SMK,StandardScaler,K-Means,4,0.17,1.8628,78.0,3.11,False
+SMK,StandardScaler,Agglomerative (Ward),4,0.1274,1.9126,63.83,1.36,False
+SMK,StandardScaler,Gaussian Mixture (GMM),4,0.1698,2.4265,58.22,4.09,False
+SMK,StandardScaler,Spectral Clustering,4,0.0384,2.1371,53.09,11.09,True
+SMK,StandardScaler,K-Means,5,0.1756,1.5425,72.97,0.19,False
+SMK,StandardScaler,Agglomerative (Ward),5,0.1274,1.5732,60.68,0.19,False
+SMK,StandardScaler,Gaussian Mixture (GMM),5,0.0697,2.3124,48.79,7.39,True
+SMK,StandardScaler,Spectral Clustering,5,0.0607,1.9783,48.29,8.37,True
+SMK,RobustScaler,K-Means,2,0.6541,0.8987,409.22,16.34,True
+SMK,RobustScaler,Agglomerative (Ward),2,0.6625,0.8521,329.26,9.92,True
+SMK,RobustScaler,Gaussian Mixture (GMM),2,0.6115,1.2192,252.89,16.54,True
+SMK,RobustScaler,Spectral Clustering,2,0.5987,1.0266,335.55,28.02,True
+SMK,RobustScaler,K-Means,3,0.61,1.1048,319.46,11.28,True
+SMK,RobustScaler,Agglomerative (Ward),3,0.5846,1.3446,281.47,9.92,True
+SMK,RobustScaler,Gaussian Mixture (GMM),3,0.5227,1.9689,126.68,4.09,False
+SMK,RobustScaler,Spectral Clustering,3,0.5846,0.9911,269.69,8.37,True
+SMK,RobustScaler,K-Means,4,0.6221,1.1929,278.32,4.47,False
+SMK,RobustScaler,Agglomerative (Ward),4,0.5922,1.3307,234.77,3.89,False
+SMK,RobustScaler,Gaussian Mixture (GMM),4,0.5548,1.9838,157.26,5.45,True
+SMK,RobustScaler,Spectral Clustering,4,0.6018,1.3402,211.11,5.06,True
+SMK,RobustScaler,K-Means,5,0.6177,0.9942,264.02,2.53,False
+SMK,RobustScaler,Agglomerative (Ward),5,0.6197,1.2675,218.92,3.89,False
+SMK,RobustScaler,Gaussian Mixture (GMM),5,0.5664,1.7298,147.78,2.53,False
+SMK,RobustScaler,Spectral Clustering,5,0.1533,1.9283,160.15,5.06,True
+SMK,MinMaxScaler,K-Means,2,0.4242,1.3127,189.56,15.95,True
+SMK,MinMaxScaler,Agglomerative (Ward),2,0.4529,1.2662,165.4,11.28,True
+SMK,MinMaxScaler,Gaussian Mixture (GMM),2,0.3823,1.7414,124.56,17.32,True
+SMK,MinMaxScaler,Spectral Clustering,2,0.1128,2.2003,62.05,38.33,True
+SMK,MinMaxScaler,K-Means,3,0.2477,1.5273,151.64,15.56,True
+SMK,MinMaxScaler,Agglomerative (Ward),3,0.2045,1.6299,125.61,11.28,True
+SMK,MinMaxScaler,Gaussian Mixture (GMM),3,0.2227,1.5891,119.77,16.54,True
+SMK,MinMaxScaler,Spectral Clustering,3,0.1865,1.555,107.13,25.29,True
+SMK,MinMaxScaler,K-Means,4,0.2331,1.6131,129.32,3.11,False
+SMK,MinMaxScaler,Agglomerative (Ward),4,0.2189,1.7548,112.86,11.28,True
+SMK,MinMaxScaler,Gaussian Mixture (GMM),4,0.2331,1.9342,100.87,6.61,True
+SMK,MinMaxScaler,Spectral Clustering,4,0.2091,1.4817,107.5,13.42,True
+SMK,MinMaxScaler,K-Means,5,0.2349,1.5977,121.75,3.11,False
+SMK,MinMaxScaler,Agglomerative (Ward),5,0.2273,1.7319,103.04,3.31,False
+SMK,MinMaxScaler,Gaussian Mixture (GMM),5,0.2077,2.2677,74.39,4.09,False
+SMK,MinMaxScaler,Spectral Clustering,5,0.2361,1.3822,108.45,6.61,True

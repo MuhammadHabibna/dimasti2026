@@ -1,0 +1,21 @@
+policy_scenario,target_stratum,n_units,baseline_numerasi,delta_Y_unconstrained,delta_Y_monotonic,pct_positive_unconstrained,pct_positive_monotonic
+"Scenario A: Pedagogical Quality & Leadership Upgrade (+12 D.1, +10 D.2/D.3)",All Districts (National Average),2056,57.35,0.071,0.049,95.7,100.0
+"Scenario A: Pedagogical Quality & Leadership Upgrade (+12 D.1, +10 D.2/D.3)",Cluster 1: High-Performing Benchmark,988,63.57,0.039,0.01,99.3,100.0
+"Scenario A: Pedagogical Quality & Leadership Upgrade (+12 D.1, +10 D.2/D.3)",Cluster 2: Pedagogy-Infrastructure Paradox,948,53.27,0.026,0.031,94.0,100.0
+"Scenario A: Pedagogical Quality & Leadership Upgrade (+12 D.1, +10 D.2/D.3)",Cluster 3: 3T Affirmation Priority,120,38.29,0.692,0.508,79.2,100.0
+Scenario B: Classroom De-crowding & Group Size Optimization (-5 Rombel),All Districts (National Average),2056,57.35,-0.257,0.717,45.2,81.6
+Scenario B: Classroom De-crowding & Group Size Optimization (-5 Rombel),Cluster 1: High-Performing Benchmark,988,63.57,-0.621,0.931,38.1,86.5
+Scenario B: Classroom De-crowding & Group Size Optimization (-5 Rombel),Cluster 2: Pedagogy-Infrastructure Paradox,948,53.27,0.054,0.523,51.8,75.8
+Scenario B: Classroom De-crowding & Group Size Optimization (-5 Rombel),Cluster 3: 3T Affirmation Priority,120,38.29,0.283,0.49,51.7,86.7
+"Scenario C: Teacher Equity & Workload Distribution (+15 Equity, -3 STR)",All Districts (National Average),2056,57.35,-0.084,1.281,50.5,90.2
+"Scenario C: Teacher Equity & Workload Distribution (+15 Equity, -3 STR)",Cluster 1: High-Performing Benchmark,988,63.57,-0.297,1.554,46.1,90.0
+"Scenario C: Teacher Equity & Workload Distribution (+15 Equity, -3 STR)",Cluster 2: Pedagogy-Infrastructure Paradox,948,53.27,0.046,1.057,53.5,90.2
+"Scenario C: Teacher Equity & Workload Distribution (+15 Equity, -3 STR)",Cluster 3: 3T Affirmation Priority,120,38.29,0.643,0.816,63.3,91.7
+Scenario D: Basic Physical & Digital Infrastructure Affirmation (>=98% Elec/Water),All Districts (National Average),2056,57.35,3.895,4.903,91.8,100.0
+Scenario D: Basic Physical & Digital Infrastructure Affirmation (>=98% Elec/Water),Cluster 1: High-Performing Benchmark,988,63.57,3.268,3.858,91.6,100.0
+Scenario D: Basic Physical & Digital Infrastructure Affirmation (>=98% Elec/Water),Cluster 2: Pedagogy-Infrastructure Paradox,948,53.27,4.614,5.995,91.9,100.0
+Scenario D: Basic Physical & Digital Infrastructure Affirmation (>=98% Elec/Water),Cluster 3: 3T Affirmation Priority,120,38.29,3.385,4.881,93.3,100.0
+Scenario E: Integrated Education 5.0 Affirmative Blueprint (Comprehensive),All Districts (National Average),2056,57.35,2.208,6.8,62.9,97.5
+Scenario E: Integrated Education 5.0 Affirmative Blueprint (Comprehensive),Cluster 1: High-Performing Benchmark,988,63.57,1.106,6.086,56.9,96.0
+Scenario E: Integrated Education 5.0 Affirmative Blueprint (Comprehensive),Cluster 2: Pedagogy-Infrastructure Paradox,948,53.27,3.13,7.606,67.1,98.9
+Scenario E: Integrated Education 5.0 Affirmative Blueprint (Comprehensive),Cluster 3: 3T Affirmation Priority,120,38.29,3.99,6.313,80.0,99.2

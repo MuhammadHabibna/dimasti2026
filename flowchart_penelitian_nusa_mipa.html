@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowchart Metodologi Penelitian NUSA-MIPA 2026 (Landscape)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #F8FAFC;
+      color: #0F172A;
+      padding: 24px;
+      overflow-x: auto;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      padding-bottom: 16px;
+      border-bottom: 1px solid #E2E8F0;
+    }
+    h1 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 20px;
+      font-weight: 800;
+      color: #0F172A;
+    }
+    .badge {
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 9999px;
+      background: #EFF6FF;
+      color: #1D4ED8;
+      border: 1px solid #BFDBFE;
+    }
+    .btn-print {
+      background: #2563EB;
+      color: #FFFFFF;
+      border: none;
+      border-radius: 8px;
+      padding: 8px 16px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .btn-print:hover {
+      background: #1D4ED8;
+    }
+    .card {
+      background: #FFFFFF;
+      border: 1px solid #E2E8F0;
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 4px 12px rgba(15, 23, 42, 0.04);
+      min-width: 1300px;
+    }
+    .mermaid {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+    .footer-desc {
+      margin-top: 24px;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 16px;
+      font-size: 11.5px;
+      color: #475569;
+      line-height: 1.5;
+    }
+    .phase-box {
+      background: #F8FAFC;
+      border: 1px solid #E2E8F0;
+      border-radius: 10px;
+      padding: 12px 14px;
+    }
+    .phase-box b {
+      display: block;
+      color: #0F172A;
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <span class="badge">DIMAS-TI AMLI 2026 · DIVISI PENAMBANGAN DATA</span>
+      <h1 style="margin-top: 6px;">Bagan Alir (Flowchart) Metodologi Penelitian NUSA-MIPA 2026</h1>
+      <p style="font-size: 12px; color: #64748B; margin-top: 2px;">
+        Format Horizontal Landscape (Left-to-Right): Dari Akuisisi Data Hingga Simulator Kebijakan Preskriptif
+      </p>
+    </div>
+    <button class="btn-print" onclick="window.print()">Cetak / Simpan PDF</button>
+  </header>
+
+  <div class="card">
+    <div class="mermaid">
+graph LR
+    %% Styling Configuration
+    classDef data fill:#EFF6FF,stroke:#2563EB,stroke-width:2px,color:#1E3A8A;
+    classDef eda fill:#F0FDF4,stroke:#16A34A,stroke-width:2px,color:#065F46;
+    classDef cluster fill:#FEF3C7,stroke:#D97706,stroke-width:2px,color:#78350F;
+    classDef spatial fill:#F5F3FF,stroke:#7C3AED,stroke-width:2px,color:#4C1D95;
+    classDef ml fill:#ECFDF5,stroke:#059669,stroke-width:2px,color:#064E3B;
+    classDef xai fill:#FFF1F2,stroke:#E11D48,stroke-width:2px,color:#881337;
+    classDef sim fill:#F0F9FF,stroke:#0284C7,stroke-width:2px,color:#0C4A6E;
+
+    subgraph P1 ["FASE 1: AKUISISI DATA & AUDIT"]
+        D1["Dapodik Kemendikbud 2025<br/>(Sarpras, Guru, Rombel, Murid)"]:::data
+        D2["Rapor Pendidikan 2025<br/>(Numerasi SD, SMP, SMA, SMK)"]:::data
+        D3["Survei Lingkungan Belajar<br/>(Pedagogi D.1, Iklim Keamanan)"]:::data
+        MASTER["Master Dataset Bersih (N=2.056)<br/>514 Kab/Kota × 4 Jenjang<br/>0 Missing | Koordinat Definitif"]:::data
+        D1 --> MASTER
+        D2 --> MASTER
+        D3 --> MASTER
+    end
+
+    subgraph P2 ["FASE 2: SPATIAL EDA & TIPOLOGI"]
+        MORAN["Autokorelasi Spasial (Moran I)<br/>SD: +0.624 | SMP: +0.549 | SMA: +0.610<br/>SMK: +0.063 (Vocational Paradox)"]:::eda
+        LOSS["Analisis Transisi MIPA<br/>SD: 53.3 → SMP: 63.9 → SMA: 57.1<br/>Learning Loss SMP ke SMA: -6.86 pt"]:::eda
+        CLUST["K-Means Clustering (IPO 6 Dimensi)<br/>k=3 (StandardScaler, Silh=0.385)<br/>K1 Benchmark | K2 Paradoks | K3 3T"]:::cluster
+        MASTER --> MORAN
+        MASTER --> LOSS
+        MASTER --> CLUST
+    end
+
+    subgraph P3 ["FASE 3: EKONOMETRIKA SPASIAL"]
+        VIF["Audit Multikolinieritas VIF<br/>Eliminasi Fitur Kuasi-Konstan<br/>Condition Number: >10^9 → 4.12"]:::spatial
+        MGWR["Multiscale GWR (Case 3 & 4)<br/>Bandwidth Lokal kj = 35 s.d. 480<br/>Composite R2 = 0.766, OOF = 0.767<br/>Resid Moran: -0.0109 (Lenyap)"]:::spatial
+        MORAN --> VIF
+        CLUST --> VIF
+        VIF --> MGWR
+    end
+
+    subgraph P4 ["FASE 4: EXPLAINABLE ML & DUAL CV"]
+        CV["Dual Spatial Cross-Validation<br/>5-Fold District GroupKFold<br/>38-Fold Leave-One-Province-Out"]:::ml
+        MODELS["Benchmark 11 Model ML<br/>Extra Trees (R2 = 0.650)<br/>Random Forest (R2 = 0.642)<br/>Monotonic LightGBM (R2 = 0.642)"]:::ml
+        SHAP["Explainable AI (TreeSHAP)<br/>Top 1: Kualitas Belajar (+3.24 pt)<br/>Top 2: Listrik (+1.95 pt)<br/>3T Sensitif: Keamanan (3.10 pt)"]:::xai
+        MGWR --> CV
+        CV --> MODELS
+        MODELS --> SHAP
+    end
+
+    subgraph P5 ["FASE 5: SIMULASI & PLATFORM"]
+        ROBUST["Uji Ketahanan (Robustness)<br/>Noise ±10% (rho = 0.979)<br/>Jackknife 30% (CV = 3.49%)"]:::ml
+        SIMUL["Simulator What-If Monotonik<br/>Batas Pedagogis (Zero Urban Bias)<br/>Skenario E: +6.63 pt (97.3% Positif)"]:::sim
+        DEPLOY["Platform Web NUSA-MIPA<br/>Poligon GeoJSON 514 Daerah<br/>One-Page Policy Brief (RKPD)"]:::sim
+        MODELS --> ROBUST
+        SHAP --> SIMUL
+        ROBUST --> SIMUL
+        SIMUL --> DEPLOY
+    end
+    </div>
+
+    <div class="footer-desc">
+      <div class="phase-box">
+        <b>Fase 1: Data Contract</b>
+        Pembersihan dan standardisasi 2.056 unit observasi tanpa missing value dan pemisahan 24 wilayah kembar.
+      </div>
+      <div class="phase-box">
+        <b>Fase 2: Geospasial & IPO</b>
+        Membuktikan Hukum Tobler, anomali vokasi SMK, learning loss transisi, dan tipologi 3 klaster nasional.
+      </div>
+      <div class="phase-box">
+        <b>Fase 3: MGWR Ekonometrika</b>
+        Mengeliminasi ledakan singularitas numerik dan memetakan determinan lokal dengan OOF R² = 0.767.
+      </div>
+      <div class="phase-box">
+        <b>Fase 4: Machine Learning</b>
+        Validasi ganda spasial bebas kebocoran dan atribusi SHAP pendorong kebijakan per klaster.
+      </div>
+      <div class="phase-box">
+        <b>Fase 5: Decision Support</b>
+        Uji ketahanan instrumen, eliminasi confounding bias, serta penerbitan policy brief otomatis untuk Pemda.
+      </div>
+    </div>
+  </div>
+
+  <script>
+    mermaid.initialize({
+      startOnLoad: true,
+      theme: 'neutral',
+      flowchart: {
+        curve: 'basis',
+        useMaxWidth: false,
+        htmlLabels: true
+      }
+    });
+  </script>
+</body>
+</html>

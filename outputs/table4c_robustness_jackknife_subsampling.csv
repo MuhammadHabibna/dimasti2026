@@ -1,0 +1,4 @@
+subsample_dropped_pct,mean_out_of_sample_r2,std_out_of_sample_r2,mean_out_of_sample_rmse,r2_stability_cv_pct
+10,0.6483,0.0622,8.235,9.6
+20,0.6353,0.0422,8.15,6.64
+30,0.6389,0.0223,8.042,3.49

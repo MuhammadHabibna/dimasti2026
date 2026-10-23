@@ -1,0 +1,2 @@
+feature_case,jenjang,model,r2_in_sample,adj_r2_in_sample,aicc,rmse,residual_morans_I,mean_local_condition_number,pct_districts_with_sig_policy_levers,bandwidth_scale,spatial_5fold_oof_r2
+Case 4: District Multi-Level Composite Index (N=514),ALL_COMPOSITE,Multiscale GWR (MGWR),0.7634,0.7572,3124.28,4.914,-0.0127,8.52,100.0,Multi k=[55..480],0.7698

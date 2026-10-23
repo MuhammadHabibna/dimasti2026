@@ -1,0 +1,41 @@
+# ==============================================================================
+# NUSA-MIPA DIMAS-TI 2026 - Master .gitignore
+# ==============================================================================
+
+# Node / Web App Dependencies & Builds
+**/node_modules/
+**/dist/
+**/build/
+**/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python & Jupyter Notebook Artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Temporary / Scratch files
+scratch_*.py
+scratch_*.txt
+extracted_*.txt
+*.tmp
+*.temp
+search_results.txt
+
+# OS & Editor Metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace

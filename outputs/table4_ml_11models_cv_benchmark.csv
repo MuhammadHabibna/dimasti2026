@@ -1,0 +1,34 @@
+feature_case,model,gkf5_oof_r2,gkf5_oof_rmse,gkf5_oof_mae,lopo38_oof_r2,lopo38_oof_rmse,lopo38_oof_mae,r2_SD,r2_SMP,r2_SMA,r2_SMK
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),1. OLS Global,0.6951,7.434,5.646,0.6892,7.506,5.721,0.6997,0.7182,0.6818,0.2851
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),2. RidgeCV (L2),0.6953,7.432,5.647,0.689,7.509,5.727,0.7,0.7176,0.682,0.2882
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),3. LassoCV (L1),0.6943,7.445,5.629,0.6889,7.51,5.707,0.692,0.7105,0.6882,0.3102
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),4. ElasticNetCV (L1+L2),0.6956,7.429,5.645,0.6891,7.508,5.727,0.6997,0.7168,0.6826,0.2936
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),5. SVR (RBF Kernel),0.6785,7.635,4.894,0.6675,7.764,5.258,0.657,0.7107,0.6578,0.3231
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),6. Random Forest,0.7346,6.936,4.454,0.7,7.374,5.103,0.7237,0.7544,0.7356,0.3938
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),7. Extra Trees,0.7441,6.811,4.183,0.7276,7.028,4.778,0.7277,0.7614,0.7451,0.4405
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),8. Gradient Boosting (GBR),0.7288,7.011,4.622,0.7101,7.25,5.023,0.7171,0.7493,0.7176,0.4148
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),9. XGBoost (Unconstrained),0.7365,6.912,4.579,0.7141,7.199,4.998,0.7349,0.7544,0.7185,0.4255
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),10. LightGBM (Unconstrained),0.7312,6.981,4.628,0.6947,7.439,5.23,0.7268,0.7557,0.7245,0.3691
+Case 1: With Literacy Proxy (20 Features + Spatial + Level),11. LightGBM (Monotonic - Proposed),0.73,6.996,4.9,0.7155,7.182,5.229,0.7304,0.755,0.7195,0.3599
+Case 2: Full Policy-Only (19 Features + Spatial + Level),1. OLS Global,0.5014,9.507,7.591,0.466,9.838,7.871,0.5557,0.5482,0.4546,-0.2866
+Case 2: Full Policy-Only (19 Features + Spatial + Level),2. RidgeCV (L2),0.502,9.501,7.588,0.4666,9.833,7.866,0.5565,0.5438,0.4535,-0.2631
+Case 2: Full Policy-Only (19 Features + Spatial + Level),3. LassoCV (L1),0.5012,9.509,7.609,0.4588,9.905,7.897,0.548,0.534,0.4449,-0.1868
+Case 2: Full Policy-Only (19 Features + Spatial + Level),4. ElasticNetCV (L1+L2),0.4952,9.566,7.594,0.46,9.894,7.837,0.5438,0.5145,0.4423,-0.1666
+Case 2: Full Policy-Only (19 Features + Spatial + Level),5. SVR (RBF Kernel),0.5598,8.933,5.857,0.5197,9.331,6.429,0.5437,0.607,0.4988,0.1073
+Case 2: Full Policy-Only (19 Features + Spatial + Level),6. Random Forest,0.6408,8.069,5.549,0.5818,8.707,6.248,0.6637,0.6596,0.6053,0.184
+Case 2: Full Policy-Only (19 Features + Spatial + Level),7. Extra Trees,0.6494,7.973,5.481,0.5935,8.584,6.122,0.6836,0.6554,0.6187,0.1972
+Case 2: Full Policy-Only (19 Features + Spatial + Level),8. Gradient Boosting (GBR),0.6494,7.972,5.627,0.5777,8.75,6.361,0.666,0.6722,0.6288,0.169
+Case 2: Full Policy-Only (19 Features + Spatial + Level),9. XGBoost (Unconstrained),0.6481,7.987,5.637,0.575,8.777,6.343,0.6781,0.6692,0.6208,0.1463
+Case 2: Full Policy-Only (19 Features + Spatial + Level),10. LightGBM (Unconstrained),0.6415,8.062,5.725,0.5649,8.881,6.485,0.6675,0.6676,0.6043,0.1538
+Case 2: Full Policy-Only (19 Features + Spatial + Level),11. LightGBM (Monotonic - Proposed),0.6476,7.993,5.723,0.5766,8.761,6.486,0.694,0.6729,0.6212,0.0735
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),1. OLS Global,0.4995,9.525,7.611,0.4684,9.816,7.852,0.5319,0.5443,0.4558,-0.2191
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),2. RidgeCV (L2),0.4991,9.529,7.6,0.4693,9.809,7.831,0.5322,0.5384,0.4549,-0.2025
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),3. LassoCV (L1),0.4988,9.531,7.611,0.469,9.811,7.841,0.5283,0.5317,0.4507,-0.1568
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),4. ElasticNetCV (L1+L2),0.4947,9.571,7.582,0.4675,9.825,7.794,0.5267,0.5134,0.4454,-0.121
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),5. SVR (RBF Kernel),0.5647,8.883,5.81,0.5225,9.303,6.427,0.5432,0.6178,0.5029,0.1173
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),6. Random Forest,0.6288,8.204,5.654,0.5689,8.84,6.36,0.6437,0.6469,0.6011,0.1657
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),7. Extra Trees,0.6395,8.084,5.589,0.5817,8.708,6.257,0.6624,0.6507,0.6154,0.1773
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),8. Gradient Boosting (GBR),0.6329,8.157,5.787,0.5621,8.909,6.465,0.6485,0.6566,0.6034,0.1581
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),9. XGBoost (Unconstrained),0.6321,8.167,5.779,0.5585,8.946,6.484,0.6488,0.654,0.6123,0.1322
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),10. LightGBM (Unconstrained),0.6244,8.251,5.827,0.5511,9.02,6.583,0.6461,0.6525,0.6003,0.0888
+Case 3: VIF-Pruned Orthogonal Policy (12 Features + Spatial + Level),11. LightGBM (Monotonic - Proposed),0.6331,8.155,5.831,0.5617,8.913,6.59,0.6774,0.6581,0.6142,0.03

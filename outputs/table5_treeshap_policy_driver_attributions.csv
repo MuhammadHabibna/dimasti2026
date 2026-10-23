@@ -1,0 +1,20 @@
+feature_code,feature_label_en,expected_domain_direction,mean_abs_shap_monotonic,mean_abs_shap_unconstrained,mean_abs_shap_cluster1_benchmark,mean_abs_shap_cluster2_paradox,mean_abs_shap_cluster3_3T_priority
+kualitas_pembelajaran_score,Instructional Quality D.1 (X3),+,3.2627,3.2412,3.2649,3.2533,3.3194
+persen_sekolah_listrik,School Electrification % (X2),+,1.9391,1.8432,1.9953,1.8526,2.1599
+persen_sekolah_air_cukup,Clean Water Adequacy % (X2),+,1.1663,0.8779,1.1523,1.1344,1.5335
+persen_putus_sekolah,School Dropout Rate % (X4),-,0.9283,0.6891,1.1412,0.7115,0.8888
+iklim_keamanan_score,School Safety Climate D.4 (X3),+,0.8906,1.1404,0.6372,0.856,3.2505
+rasio_rombel_per_ruang,Class Groups per Room (X2),-,0.6676,0.4581,0.6777,0.6707,0.5593
+indeks_karakter_score,Student Character Index A.3 (X3),+,0.655,0.6059,0.4937,0.6566,1.9701
+persen_mengulang,Grade Repetition Rate % (X4),-,0.6006,0.4955,0.6634,0.521,0.7124
+rasio_siswa_per_rombel,Students per Class Group (X2),-,0.5616,0.5566,0.6473,0.45,0.7371
+iklim_kebinekaan_score,Diversity Climate D.8 (X3),+,0.5236,0.5211,0.3073,0.5163,2.3625
+rasio_siswa_per_guru,Student-Teacher Ratio (X1),-,0.5102,0.5588,0.5816,0.4463,0.4269
+kesenjangan_fasilitas_tik_score,ICT Facility Gap Score (X2),-,0.4883,0.5712,0.305,0.5851,1.2315
+indeks_pemerataan_guru,Teacher Distribution Equity (X1),+,0.418,0.4362,0.4065,0.4298,0.4192
+refleksi_guru_score,Teacher Reflection D.2 (X3),+,0.0436,0.0536,0.0284,0.0396,0.1996
+persen_sekolah_internet,School Internet Access % (X2),+,0.0408,0.0842,0.0213,0.0532,0.1027
+kepemimpinan_instruksional_score,Instructional Leadership D.3 (X3),+,0.0299,0.0417,0.0168,0.022,0.2003
+persen_ruang_kelas_layak,Decent Classroom Ratio % (X2),+,0.0047,0.1162,0.0031,0.004,0.0231
+proporsi_guru_s1_score,Bachelor-Certified Teachers (X1),+,0.0,0.0182,0.0,0.0,0.0
+iklim_inklusivitas_score,Inclusivity Climate D.10 (X3),+,0.0,0.0062,0.0,0.0,0.0

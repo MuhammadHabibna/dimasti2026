@@ -1,0 +1,196 @@
+{
+  "total_districts": 514,
+  "total_provinces": 38,
+  "total_observations": 2056,
+  "mean_numerasi": {
+    "SD": 53.3,
+    "SMP": 63.92,
+    "SMA": 57.06,
+    "SMK": 55.13,
+    "ALL": 57.35
+  },
+  "spatial_autocorrelation_moran": {
+    "SD": {
+      "I": 0.6237,
+      "p_value": 0.005,
+      "interpretation": "Klasterisasi Tinggi (Jawa-Bali)"
+    },
+    "SMP": {
+      "I": 0.5489,
+      "p_value": 0.005,
+      "interpretation": "Dependensi Spasial Sangat Kuat"
+    },
+    "SMA": {
+      "I": 0.6101,
+      "p_value": 0.005,
+      "interpretation": "Polarisasi Regional Barat vs Timur"
+    },
+    "SMK": {
+      "I": 0.0625,
+      "p_value": 0.005,
+      "interpretation": "Vocational Paradox (Sebaran Acak)"
+    }
+  },
+  "disparities": {
+    "jawa_vs_luar_jawa": {
+      "gap": 15.85,
+      "jawa_mean": 65.45,
+      "luar_jawa_mean": 49.6
+    },
+    "urban_vs_rural": {
+      "gap": 11.93,
+      "kota_mean": 66.82,
+      "kabupaten_mean": 54.89
+    },
+    "non_3t_vs_3t": {
+      "gap": 15.41,
+      "non_3t_mean": 58.42,
+      "t3_mean": 43.01
+    }
+  },
+  "clusters": {
+    "kluster_1": {
+      "name": "Kluster 1: Benchmark Nasional",
+      "count": 184,
+      "pct": 35.8,
+      "numerasi": 68.1,
+      "color": "#10B981"
+    },
+    "kluster_2": {
+      "name": "Kluster 2: Paradoks Sarpras",
+      "count": 283,
+      "pct": 55.1,
+      "numerasi": 55.2,
+      "color": "#F59E0B"
+    },
+    "kluster_3": {
+      "name": "Kluster 3: Prioritas Afirmasi 3T",
+      "count": 47,
+      "pct": 9.1,
+      "numerasi": 41.5,
+      "color": "#E11D48"
+    }
+  },
+  "scenarios_performance": [
+    {
+      "id": "A",
+      "title": "Skenario A: Peningkatan Kualitas Guru",
+      "desc": "+12 pt Kualitas Pembelajaran (D.1), +10 Refleksi Guru",
+      "delta_y": 0.006,
+      "pct_positive": 52.4,
+      "k1": 0.008,
+      "k2": 0.005,
+      "k3": 0.004
+    },
+    {
+      "id": "B",
+      "title": "Skenario B: Optimalisasi Ukuran Rombel",
+      "desc": "-5 siswa per rombongan belajar di sekolah padat",
+      "delta_y": 0.346,
+      "pct_positive": 89.9,
+      "k1": 0.372,
+      "k2": 0.319,
+      "k3": 0.352
+    },
+    {
+      "id": "C",
+      "title": "Skenario C: Reformasi Beban & Pemerataan Guru",
+      "desc": "+15 Indeks Pemerataan Guru, -3 Beban STR",
+      "delta_y": 1.165,
+      "pct_positive": 88.7,
+      "k1": 1.418,
+      "k2": 0.951,
+      "k3": 0.779
+    },
+    {
+      "id": "D",
+      "title": "Skenario D: Afirmasi Sarpras & Utilitas Dasar",
+      "desc": "Elektrifikasi & Air Bersih 100%, -15 Kesenjangan TIK",
+      "delta_y": 4.761,
+      "pct_positive": 100.0,
+      "k1": 4.032,
+      "k2": 5.779,
+      "k3": 4.676
+    },
+    {
+      "id": "E",
+      "title": "Skenario E: Blueprint Terpadu Education 5.0",
+      "desc": "Sinergi Komprehensif Skenario A + B + C + D",
+      "delta_y": 6.626,
+      "pct_positive": 97.3,
+      "k1": 5.919,
+      "k2": 7.419,
+      "k3": 6.19
+    }
+  ],
+  "top_shap_drivers": [
+    {
+      "rank": 1,
+      "feature": "Kualitas Pembelajaran (D.1 Pedagogi)",
+      "shap_pts": 3.24,
+      "category": "Proses Pembelajaran"
+    },
+    {
+      "rank": 2,
+      "feature": "Elektrifikasi Sekolah (Listrik)",
+      "shap_pts": 1.95,
+      "category": "Sarana & Prasarana"
+    },
+    {
+      "rank": 3,
+      "feature": "Kecukupan Air Bersih & Sanitasi",
+      "shap_pts": 1.15,
+      "category": "Sarana & Prasarana"
+    },
+    {
+      "rank": 4,
+      "feature": "Angka Putus Sekolah (Drop Out)",
+      "shap_pts": -0.93,
+      "category": "Efisiensi Pendidikan"
+    },
+    {
+      "rank": 5,
+      "feature": "Iklim Keamanan Sekolah (D.4 Anti-Bullying)",
+      "shap_pts": 0.85,
+      "category": "Iklim Lingkungan Belajar"
+    },
+    {
+      "rank": 6,
+      "feature": "Rasio Siswa per Rombel",
+      "shap_pts": -0.6,
+      "category": "Kondisi Belajar"
+    }
+  ],
+  "ml_benchmarks": [
+    {
+      "model": "LightGBM Monotonik (Usulan)",
+      "group_kf_r2": 0.6416,
+      "lopo_r2": 0.5726,
+      "status": "Optimal & Bebas Bias"
+    },
+    {
+      "model": "Extra Trees Regressor",
+      "group_kf_r2": 0.6495,
+      "lopo_r2": 0.5945,
+      "status": "Akurasi OOF Tertinggi"
+    },
+    {
+      "model": "Random Forest Regressor",
+      "group_kf_r2": 0.6422,
+      "lopo_r2": 0.5814,
+      "status": "Ensemble Stabil"
+    },
+    {
+      "model": "MGWR Case 4 Composite",
+      "group_kf_r2": 0.7659,
+      "lopo_r2": 0.7665,
+      "status": "Ekonometrika Spasial Terbaik"
+    },
+    {
+      "model": "OLS Global Baseline",
+      "group_kf_r2": 0.5014,
+      "lopo_r2": 0.466,
+      "status": "Asumsi Linier Runtuh di SMK"
+    }
+  ]
+}

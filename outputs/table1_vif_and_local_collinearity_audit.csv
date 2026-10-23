@@ -1,0 +1,21 @@
+feature_code,feature_label_en,vif_case1_with_literacy,vif_case2_policy_only,vif_case3_pruned_orthogonal,dominant_value_share,local_zero_variance_rate_k35,pearson_r_with_numerasi,is_quasi_constant_ordinal,selected_in_case3
+rasio_siswa_per_guru,Student-Teacher Ratio (X1),2.834,2.812,1.296,0.007,0.0,0.145,False,True
+proporsi_guru_s1_score,Bachelor-Certified Teachers (X1),1.525,1.525,,0.986,0.837,0.144,True,False
+indeks_pemerataan_guru,Teacher Distribution Equity (X1),1.044,1.042,1.027,0.012,0.0,0.012,False,True
+persen_sekolah_internet,School Internet Access % (X2),2.555,2.531,,0.803,0.0,0.314,True,False
+persen_sekolah_listrik,School Electrification % (X2),3.247,3.143,2.854,0.161,0.0,0.506,False,True
+persen_sekolah_air_cukup,Clean Water Adequacy % (X2),1.835,1.8,1.758,0.102,0.0,0.384,False,True
+persen_ruang_kelas_layak,Decent Classroom Ratio % (X2),2.87,2.864,2.716,0.845,0.045,0.142,True,True
+rasio_siswa_per_rombel,Students per Class Group (X2),2.475,2.468,,0.005,0.0,0.281,False,False
+rasio_rombel_per_ruang,Class Groups per Room (X2),3.448,3.438,2.925,0.048,0.0,-0.123,False,True
+kesenjangan_fasilitas_tik_score,ICT Facility Gap Score (X2),2.256,2.22,1.91,0.818,0.144,-0.432,True,True
+kualitas_pembelajaran_score,Instructional Quality D.1 (X3),1.488,1.414,1.348,0.583,0.105,0.443,False,True
+refleksi_guru_score,Teacher Reflection D.2 (X3),2.553,2.547,2.231,0.848,0.444,0.417,True,True
+kepemimpinan_instruksional_score,Instructional Leadership D.3 (X3),2.213,2.212,,0.958,0.856,0.305,True,False
+iklim_keamanan_score,School Safety Climate D.4 (X3),3.514,3.505,2.234,0.878,0.623,0.446,True,True
+iklim_kebinekaan_score,Diversity Climate D.8 (X3),2.618,2.615,,0.922,0.432,0.41,True,False
+iklim_inklusivitas_score,Inclusivity Climate D.10 (X3),1.653,1.651,,0.97,0.687,0.319,True,False
+indeks_karakter_score,Student Character Index A.3 (X3),2.643,2.629,,0.866,0.685,0.416,True,False
+persen_putus_sekolah,School Dropout Rate % (X4),1.148,1.144,1.121,0.113,0.0,-0.197,False,True
+persen_mengulang,Grade Repetition Rate % (X4),1.19,1.184,1.166,0.075,0.0,-0.235,False,True
+literasi_score,Reading Literacy Score (X4 Proxy),1.794,,,0.063,0.0,0.81,False,False

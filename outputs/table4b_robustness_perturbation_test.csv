@@ -1,0 +1,7 @@
+noise_jitter_pct,fidelity_r2_to_baseline,mean_absolute_deviation,rank_spearman_rho,status
+1,0.9978,0.213,0.9989,Robust
+2,0.9947,0.382,0.9975,Robust
+5,0.9823,0.806,0.9915,Robust
+8,0.9715,1.097,0.9854,Robust
+10,0.9575,1.343,0.9793,Robust
+15,0.9191,1.92,0.9575,Robust

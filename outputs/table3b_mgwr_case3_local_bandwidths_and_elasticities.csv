@@ -1,0 +1,27 @@
+jenjang,feature_code,feature_label_en,optimal_bandwidth_knn,spatial_scale_regime,beta_mean,beta_std,beta_min,beta_max,pct_districts_significant_p05
+SD,Intercept,Local Spatial Intercept,35,Local (<75 districts),50.8881,4.3327,37.3919,60.9466,100.0
+SD,kualitas_pembelajaran_score,Instructional Quality D.1 (X3),480,National/Global (>250 districts),3.0802,0.3026,2.6585,3.6775,100.0
+SD,refleksi_guru_score,Teacher Reflection D.2 (X3),480,National/Global (>250 districts),1.1619,0.1805,0.528,1.6572,32.68
+SD,iklim_keamanan_score,School Safety Climate D.4 (X3),480,National/Global (>250 districts),3.5042,0.4787,2.3824,4.3378,100.0
+SD,kesenjangan_fasilitas_tik_score,ICT Facility Gap Score (X2),200,Regional (75-250 districts),1.4953,1.9078,-0.892,5.3823,34.05
+SD,persen_sekolah_listrik,School Electrification % (X2),200,Regional (75-250 districts),4.8559,3.4421,-0.7221,10.1678,71.4
+SD,persen_sekolah_air_cukup,Clean Water Adequacy % (X2),480,National/Global (>250 districts),0.8979,0.124,0.4852,1.3048,36.38
+SD,persen_ruang_kelas_layak,Decent Classroom Ratio % (X2),480,National/Global (>250 districts),-0.3851,0.2138,-0.8343,0.146,0.0
+SD,rasio_rombel_per_ruang,Class Groups per Room (X2),480,National/Global (>250 districts),-0.3861,0.1101,-0.7033,0.2724,0.0
+SD,rasio_siswa_per_guru,Student-Teacher Ratio (X1),320,National/Global (>250 districts),-1.8398,1.3167,-3.5115,0.7955,63.81
+SD,indeks_pemerataan_guru,Teacher Distribution Equity (X1),480,National/Global (>250 districts),0.2277,0.2367,-0.0905,0.8714,0.0
+SD,persen_putus_sekolah,School Dropout Rate % (X4),200,Regional (75-250 districts),0.6769,2.2872,-2.2069,7.2032,12.45
+SD,persen_mengulang,Grade Repetition Rate % (X4),130,Regional (75-250 districts),-3.1199,5.4926,-14.5746,3.2782,27.24
+SMP,Intercept,Local Spatial Intercept,35,Local (<75 districts),63.4741,4.5107,53.6266,72.7537,100.0
+SMP,kualitas_pembelajaran_score,Instructional Quality D.1 (X3),85,Regional (75-250 districts),4.5752,1.928,1.1454,9.1423,79.96
+SMP,refleksi_guru_score,Teacher Reflection D.2 (X3),480,National/Global (>250 districts),-0.6777,0.1451,-1.0292,0.0281,0.0
+SMP,iklim_keamanan_score,School Safety Climate D.4 (X3),480,National/Global (>250 districts),2.4211,0.5156,1.8052,3.76,100.0
+SMP,kesenjangan_fasilitas_tik_score,ICT Facility Gap Score (X2),320,National/Global (>250 districts),1.426,1.8972,-1.4445,4.8128,38.91
+SMP,persen_sekolah_listrik,School Electrification % (X2),130,Regional (75-250 districts),4.2897,2.4877,-1.1848,10.2931,76.46
+SMP,persen_sekolah_air_cukup,Clean Water Adequacy % (X2),320,National/Global (>250 districts),3.0297,1.1802,1.0412,5.5573,99.42
+SMP,persen_ruang_kelas_layak,Decent Classroom Ratio % (X2),480,National/Global (>250 districts),0.9155,0.6698,-1.0093,5.4002,0.19
+SMP,rasio_rombel_per_ruang,Class Groups per Room (X2),480,National/Global (>250 districts),1.1532,0.221,0.2186,1.6221,63.04
+SMP,rasio_siswa_per_guru,Student-Teacher Ratio (X1),320,National/Global (>250 districts),-0.686,1.2577,-2.3801,1.3905,44.36
+SMP,indeks_pemerataan_guru,Teacher Distribution Equity (X1),480,National/Global (>250 districts),0.7063,0.0972,0.4115,1.0811,0.19
+SMP,persen_putus_sekolah,School Dropout Rate % (X4),480,National/Global (>250 districts),-1.6805,0.6301,-2.6241,0.3888,1.95
+SMP,persen_mengulang,Grade Repetition Rate % (X4),480,National/Global (>250 districts),-0.5662,0.9819,-1.9958,1.5339,17.12
