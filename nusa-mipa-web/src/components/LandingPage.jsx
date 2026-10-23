@@ -260,48 +260,55 @@ export default function LandingPage({
         position: 'relative'
       }}>
         <div className="container" style={{ textAlign: 'center', maxWidth: '1040px', margin: '0 auto' }}>
-          {/* Refined Category Tag - Clean, Elegant & Un-squashed */}
-          <div style={{
-            display: 'inline-flex',
-            alignItems: 'center',
-            gap: '10px',
-            background: '#FFFFFF',
-            border: '1px solid #E2D9C8',
-            borderRadius: '9999px',
-            padding: '6px 18px',
-            marginBottom: '26px',
-            boxShadow: '0 2px 10px rgba(0,0,0,0.03)'
-          }}>
-            <span style={{ display: 'inline-flex', gap: '6px', alignItems: 'center' }}>
-              <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#2563EB' }} title="Klaster 1 Benchmark" />
-              <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#D97706' }} title="Klaster 2 Paradoks" />
-              <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#EA580C' }} title="Klaster 3 Afirmasi 3T" />
-            </span>
-            <span style={{
-              fontSize: '12px',
-              fontWeight: 700,
-              color: '#3F3F46',
-              letterSpacing: '0.04em',
-              textTransform: 'uppercase'
-            }}>
-              Pemetaan 3 Klaster IPO &bull; 514 Kabupaten / Kota
-            </span>
-          </div>
-
-          {/* Authoritative Display Heading */}
+          {/* Giant Display Heading with Refined, Clean Inline Pill */}
           <h1 style={{
             fontFamily: 'var(--font-display)',
-            fontSize: 'clamp(36px, 5.2vw, 62px)',
+            fontSize: 'clamp(36px, 5.8vw, 66px)',
             fontWeight: 800,
             color: '#141413',
-            lineHeight: 1.18,
-            letterSpacing: '-0.02em',
-            marginBottom: '22px',
-            maxWidth: '920px',
-            marginLeft: 'auto',
-            marginRight: 'auto'
+            lineHeight: 1.15,
+            letterSpacing: '-0.025em',
+            marginBottom: '24px'
           }}>
-            Preskripsi Cerdas Kebijakan Numerasi Menuju <span style={{ color: '#16A34A', display: 'inline-block' }}>Education 5.0</span>
+            Data{' '}
+            <span style={{
+              display: 'inline-flex',
+              alignItems: 'center',
+              gap: '10px',
+              padding: '6px 16px',
+              borderRadius: '9999px',
+              background: '#FFFFFF',
+              border: '1.5px solid #E2D9C8',
+              boxShadow: '0 4px 14px rgba(0,0,0,0.05)',
+              verticalAlign: 'middle',
+              margin: '0 8px',
+              whiteSpace: 'nowrap',
+              letterSpacing: 'normal',
+              lineHeight: 1,
+              transform: 'translateY(-3px)'
+            }}>
+              <span style={{ display: 'inline-flex', gap: '5px', alignItems: 'center' }}>
+                <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#2563EB' }} title="Klaster 1 Benchmark" />
+                <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#D97706' }} title="Klaster 2 Paradoks" />
+                <span style={{ width: '8px', height: '8px', borderRadius: '50%', background: '#EA580C' }} title="Klaster 3 Afirmasi 3T" />
+              </span>
+              <span style={{
+                fontSize: '13px',
+                fontWeight: 700,
+                color: '#3F3F46',
+                letterSpacing: '0.02em',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}>
+                <span>3 Klaster</span>
+                <span style={{ color: '#A1A1AA', fontWeight: 400 }}>•</span>
+                <span>514 Daerah</span>
+              </span>
+            </span>{' '}
+            MIPA.
+            <br />
+            Menuju Education 5.0.
           </h1>
 
           {/* Subtitle */}
